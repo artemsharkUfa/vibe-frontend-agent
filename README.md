@@ -66,7 +66,7 @@
 
 ```bash
 # 1. Клонировать
-git clone https://github.com/YourUser/vibe-frontend-agent.git
+git clone https://github.com/artemsharkUfa/vibe-frontend-agent.git
 
 # 2. Скопировать в директорию скиллов Claude Code
 cp -r vibe-frontend-agent ~/.claude/skills/frontend-agent
