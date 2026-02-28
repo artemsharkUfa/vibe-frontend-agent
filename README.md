@@ -226,6 +226,10 @@ python3 scripts/openrouter_client.py image \
 - [Playwright](https://playwright.dev/) (live preview)
 - [GSAP](https://gsap.com/) (анимации)
 
+## Telegram
+
+Пишу про AI, автоматизацию и vibe coding: [@Neironka_live](https://t.me/Neironka_live). Подписывайтесь.
+
 ## Лицензия
 
 [MIT](LICENSE)
