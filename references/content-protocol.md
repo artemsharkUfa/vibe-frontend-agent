@@ -41,8 +41,8 @@ JSON-файл с **всеми** текстами, числами, ссылкам
       "heading": { "en": "About", "ru": "О нас" },
       "content": { "en": "Full text paragraph...", "ru": "Полный текст параграфа..." },
       "person": {
-        "name": "Artem Chikanov",
-        "role": { "en": "Founder & Lead AI Architect", "ru": "Основатель и ведущий AI-архитектор" },
+        "name": "Alex Johnson",
+        "role": { "en": "Founder & CEO", "ru": "Основатель и CEO" },
         "photo": "images/photo.webp"
       }
     },
@@ -68,14 +68,14 @@ JSON-файл с **всеми** текстами, числами, ссылкам
   ],
   "images": [
     { "id": "logo", "src": "images/logo.png", "alt": { "en": "Company logo", "ru": "Логотип компании" } },
-    { "id": "photo", "src": "images/photo.webp", "alt": { "en": "Artem Chikanov", "ru": "Артем Чиканов" } }
+    { "id": "photo", "src": "images/photo.webp", "alt": { "en": "Alex Johnson", "ru": "Алекс Джонсон" } }
   ],
   "navigation": [
     { "text": { "en": "About", "ru": "О нас" }, "href": "#about" },
     { "text": { "en": "Services", "ru": "Услуги" }, "href": "#services" }
   ],
   "footer": {
-    "copyright": "2025 FinTechAI",
+    "copyright": "2025 TechCorp",
     "links": [
       { "text": "Telegram", "href": "https://t.me/channel" }
     ]
