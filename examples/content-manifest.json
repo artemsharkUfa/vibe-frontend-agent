@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "title": "TechCorp - AI Solutions",
+    "description": "Leading AI consulting and automation company",
+    "lang": ["en", "ru"],
+    "favicon": "images/favicon.png"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "heading": { "en": "AI That Works For You", "ru": "AI, который работает на вас" },
+      "subheading": {
+        "en": "We build intelligent automation systems that save time and scale your business",
+        "ru": "Создаём системы интеллектуальной автоматизации, которые экономят время и масштабируют бизнес"
+      },
+      "cta": [
+        { "text": { "en": "Get Started", "ru": "Начать" }, "href": "#contact", "style": "primary" },
+        { "text": { "en": "Learn More", "ru": "Узнать больше" }, "href": "#services", "style": "outline" }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "cards",
+      "heading": { "en": "Our Services", "ru": "Наши услуги" },
+      "items": [
+        {
+          "title": { "en": "AI Consulting", "ru": "AI-консалтинг" },
+          "description": {
+            "en": "Strategic guidance on integrating AI into your business processes",
+            "ru": "Стратегическое руководство по интеграции AI в бизнес-процессы"
+          },
+          "icon": "brain"
+        },
+        {
+          "title": { "en": "Process Automation", "ru": "Автоматизация процессов" },
+          "description": {
+            "en": "End-to-end workflow automation using n8n, Make, and custom solutions",
+            "ru": "Полная автоматизация рабочих процессов через n8n, Make и кастомные решения"
+          },
+          "icon": "zap"
+        },
+        {
+          "title": { "en": "Custom AI Agents", "ru": "Кастомные AI-агенты" },
+          "description": {
+            "en": "Purpose-built AI agents for customer support, data analysis, and content creation",
+            "ru": "Специализированные AI-агенты для поддержки клиентов, анализа данных и создания контента"
+          },
+          "icon": "bot"
+        }
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "items": [
+        { "value": "150+", "label": { "en": "Projects Delivered", "ru": "Проектов реализовано" } },
+        { "value": "40%", "label": { "en": "Average Cost Reduction", "ru": "Среднее сокращение затрат" } },
+        { "value": "24/7", "label": { "en": "AI Agent Uptime", "ru": "Время работы AI-агентов" } }
+      ]
+    }
+  ],
+  "navigation": [
+    { "text": { "en": "Services", "ru": "Услуги" }, "href": "#services" },
+    { "text": { "en": "About", "ru": "О нас" }, "href": "#about" },
+    { "text": { "en": "Contact", "ru": "Контакт" }, "href": "#contact" }
+  ],
+  "footer": {
+    "copyright": "2025 TechCorp",
+    "links": [
+      { "text": "GitHub", "href": "https://github.com" },
+      { "text": "Telegram", "href": "https://t.me/channel" }
+    ]
+  }
+}
