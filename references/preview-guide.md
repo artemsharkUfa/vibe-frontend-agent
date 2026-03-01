@@ -5,7 +5,7 @@
 ### 1. Запустить HTTP-сервер
 
 ```bash
-cd ./outputs/<project-name> && python3 -m http.server 8080 &
+cd outputs/<project-name> && python3 -m http.server 8080 &
 ```
 
 Запустить в фоне (run_in_background: true). Запомнить task ID для остановки.
@@ -53,7 +53,7 @@ kill $(lsof -t -i:8080) 2>/dev/null
 ### 1. Установить зависимости и запустить
 
 ```bash
-cd ./outputs/<project-name>
+cd outputs/<project-name>
 npm install
 npm run dev -- --port 8080 &
 ```
