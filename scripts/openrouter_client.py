@@ -35,7 +35,6 @@ from dotenv import load_dotenv
 
 # Load .env from workspace
 ENV_PATHS = [
-    Path.cwd() / ".env",
     Path.home() / ".env",
     Path(".env"),
 ]
@@ -54,7 +53,7 @@ def get_api_key():
     key = os.environ.get("OPENROUTER_API_KEY")
     if not key:
         print("ERROR: OPENROUTER_API_KEY not found.", file=sys.stderr)
-        print("Set it in .env file or as environment variable.", file=sys.stderr)
+        print("Set it in .env or as environment variable.", file=sys.stderr)
         sys.exit(1)
     return key
 
@@ -130,7 +129,7 @@ def call_gemini_pro(prompt, image_path=None, system_prompt=None):
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
-        "HTTP-Referer": "https://github.com/artemsharkUfa/vibe-frontend-agent",
+        "HTTP-Referer": "https://github.com/vibe-frontend-agent",
         "X-Title": "Frontend Agent",
     }
 
@@ -192,7 +191,7 @@ def call_nano_banana(prompt, image_path=None, aspect_ratio="1:1", quality="2k"):
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
-        "HTTP-Referer": "https://github.com/artemsharkUfa/vibe-frontend-agent",
+        "HTTP-Referer": "https://github.com/vibe-frontend-agent",
         "X-Title": "Frontend Agent",
     }
 

@@ -2,7 +2,7 @@
 
 > Мульти-модельный AI-агент для Claude Code: дизайн в код за минуты
 
-![Status](https://img.shields.io/badge/status-WIP-yellow)
+![Status](https://img.shields.io/badge/status-v2-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-skill-blueviolet)
 ![OpenRouter](https://img.shields.io/badge/OpenRouter-API-orange)
@@ -53,6 +53,10 @@
 - **Анти-галлюцинационный протокол** - Content Manifest разделяет контент и инструкции
 - **Патч без перегенерации** - точечные правки существующих файлов
 - **Mobile-first** - адаптивная верстка по умолчанию
+- **Мульти-стек** - HTML/CSS/JS, React+Tailwind, shadcn/ui, Astro, Svelte (v2)
+- **Accessibility** - WCAG 2.1 AA: ARIA, alt-тексты, focus-стили, skip-link (v2)
+- **Security Check** - XSS, CDN integrity, mixed content, localStorage audit (v2)
+- **JS Quality** - early returns, const arrows, handle* prefix, JSDoc (v2)
 
 ## Быстрый старт
 
@@ -200,7 +204,7 @@ python3 scripts/openrouter_client.py image \
 
 Каталог эффектов с готовым кодом: [`references/gsap-animations.md`](references/gsap-animations.md)
 
-## Статус: Work in Progress
+## Статус
 
 **Работает:**
 - Мульти-модельная архитектура (Opus + Gemini + Nano Banana)
@@ -211,8 +215,14 @@ python3 scripts/openrouter_client.py image \
 - Live preview через Playwright
 - Патч существующих файлов
 
+**Новое в v2:**
+- Выбор стека перед генерацией (7+ вариантов)
+- Accessibility (WCAG 2.1 AA) - ARIA, focus-стили, skip-link
+- Security Check - проверка XSS, CDN integrity, localStorage
+- JS Quality Rules - early returns, const arrows, JSDoc
+- Image optimization - lazy loading, width/height, WebP
+
 **В планах:**
-- React/Tailwind генерация
 - Поддержка многостраничных сайтов
 - Экспорт в Figma-совместимый формат
 - Автоматическое A/B тестирование вариантов
